@@ -28,11 +28,11 @@ The project directory contains the following files:
 
 **Files Description**:
 
-- dag_worldbank_pipeline.py: Contains the Apache Airflow DAG definition for the pipeline.
-- docker-compose.yaml: Defines the Docker services for Airflow and DuckDB.
-- Dockerfile: Specifies the Docker image configuration for the Airflow worker.
-- requirements.txt: Lists the Python dependencies for the project.
-- README.md: Provides an overview and setup instructions for the project.
+- **dag_worldbank_pipeline.py**: Contains the Apache Airflow DAG definition for the pipeline.
+- **docker-compose.yaml**: Defines the Docker services for Airflow and DuckDB.
+- **Dockerfile**: Specifies the Docker image configuration for the Airflow worker.
+- **requirements.txt**: Lists the Python dependencies for the project.
+- **README.md**: Provides an overview and setup instructions for the project.
 
 
 ## Setup Instructions

@@ -41,13 +41,14 @@ Follow these steps to set up and run the project:
 
 1. Clone the Repository:
     ```
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/igor-rufino/worldbank-airflow.git
+    cd worldbank-airflow.git
     ```
 
 2. Build and Start Docker Services:
     ```
-    docker-compose up --build
+    docker compose up airflow-init
+    docker compose up
     ```
 
 3. Access the Airflow UI:

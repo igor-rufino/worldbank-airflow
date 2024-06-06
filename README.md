@@ -64,10 +64,12 @@ Follow these steps to set up and run the project:
 ### Extracting Data
 The pipeline extracts GDP data for South American countries from the World Bank API. The extraction is handled by the extract function in the dag_worldbank_pipeline.py script.
 
+The length of the collected data is printed to the task's Logs.
+
 ### Loading Data
 The extracted data is loaded into a DuckDB database. The load function in the dag_worldbank_pipeline.py script handles this process, creating necessary tables and inserting data.
 
-The tables is printed to the task's Logs.
+The tables are printed to the task's Logs.
 
 ### Querying Data
 The query function in dag_worldbank_pipeline.py generates a pivoted report of the GDP data for the last 5 years, presented in billions. The report structure includes columns for country ID, name, ISO3 code, and GDP values for the years 2019 to 2023.
